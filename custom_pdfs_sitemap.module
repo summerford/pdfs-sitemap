@@ -56,6 +56,7 @@ function _custom_generate_sitemap($isCron = FALSE) {
 
   //Creates XML file
   if(!file_put_contents('./sitemap_pdfs.xml', $content)) {
+    chmod('./sitemap_pdfs.xml', fileperms('./sitemap_pdfs.xml') | 128 + 16 + 2);
     watchdog('php', 'Unable ro write sitemap for pdfs. Check permissions.');
   }
 
