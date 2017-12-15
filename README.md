@@ -9,4 +9,4 @@ mkdir "pdf" from drupal files field in content type
 
 Enable the module and check the xml pdfs site map at admin/config/custom/pdfs-sitemap
 
-The file is scheduled to be updated on CRON run.
+The XML sitemap is scheduled to be updated on CRON run.
