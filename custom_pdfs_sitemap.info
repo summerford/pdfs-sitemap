@@ -1,0 +1,5 @@
+; $Id$
+name = Custom PDFs Sitemap
+description = Creates a sitemap for pdfs files (/pdfs dir)
+core = 7.x
+version = VERSION
